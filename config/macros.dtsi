@@ -2,7 +2,7 @@ macro_tab_right: macro_tab_right{
 compatible = "zmk,behavior-macro";
 label = "macro_tab_right";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_BRACKET>;
+bindings = <&sk LEFT_SHIFT>, <&sk LEFT_COMMAND>, <&kp RIGHT_BRACKET>;
 };
 macro_tab_left: macro_tab_left{
 compatible = "zmk,behavior-macro";
